@@ -26,8 +26,7 @@ public class Mythread implements Runnable {
                 URL url = new URL("");
                 URLConnection conn = url.openConnection();
                 System.out.println("发包成功！");
-                BufferedInputStream bis = new BufferedInputStream(
-                        conn.getInputStream());
+                BufferedInputStream bis = new BufferedInputStream(conn.getInputStream());
                 byte[] bytes = new byte[1024];
                 int len = -1;
                 StringBuffer sb = new StringBuffer();

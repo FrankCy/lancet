@@ -1,4 +1,4 @@
-package com.ddos.firstknife;
+package com.cyoung.attack.firstknife;
 
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;

